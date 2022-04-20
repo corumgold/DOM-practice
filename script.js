@@ -19,3 +19,20 @@ blueAychThree.textContent = "I'm a blue H3!";
 blueAychThree.style.color = "blue";
 
 container.appendChild(blueAychThree);
+
+const newDiv = document.createElement('div');
+newDiv.classList.add('new-div');
+
+const aychOne = document.createElement('h1');
+aychOne.classList.add('aych-one');
+aychOne.textContent = "I'm in a div!";
+
+newDiv.appendChild(aychOne);
+
+const newPara = document.createElement('p');
+newPara.classList.add('new-para');
+newPara.textContent = 'Me too!';
+
+newDiv.appendChild(newPara);
+
+container.appendChild(newDiv)

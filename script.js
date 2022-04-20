@@ -5,3 +5,10 @@ content.classList.add('content');
 content.textContent = 'This is the glorious text-content!';
 
 container.appendChild(content);
+
+const redPara = document.createElement('p');
+redPara.classList.add('redPara');
+redPara.textContent = "Hey I'm red!";
+redPara.style.color = "red";
+
+container.appendChild(redPara);
